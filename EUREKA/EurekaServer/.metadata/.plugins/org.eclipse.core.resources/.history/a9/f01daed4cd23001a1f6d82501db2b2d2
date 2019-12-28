@@ -1,0 +1,10 @@
+package com.example.service;
+
+public class AddressService {
+
+	public String getAddress(String custId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

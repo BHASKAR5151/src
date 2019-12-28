@@ -1,0 +1,32 @@
+package com.example.beans;
+
+/*@Entity*/
+public class CustomerForm {
+
+	/* @Id */
+	/* @Column */
+	int customerId;
+	String customerName;
+	String customerFirstName;
+	
+	
+	public int getAddressId() {
+		return addressId;
+	}
+	public void setAddressId(int addressId) {
+		this.addressId = addressId;
+	}
+	public String getFirstAddress() {
+		return firstAddress;
+	}
+	public void setFirstAddress(String firstAddress) {
+		this.firstAddress = firstAddress;
+	}
+	public String getSecondAddress() {
+		return secondAddress;
+	}
+	public void setSecondAddress(String secondAddress) {
+		this.secondAddress = secondAddress;
+	}
+	
+}

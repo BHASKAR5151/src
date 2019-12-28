@@ -1,0 +1,13 @@
+package com.example.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class AddressService {
+
+	public String getAddress(String custId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

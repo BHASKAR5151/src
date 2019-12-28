@@ -1,0 +1,37 @@
+package com.example.beans;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class CustomerForm {
+
+	@Id
+	int addressId;
+	@Column
+	String firstAddress;
+	@Column
+	String secondAddress;
+	
+	
+	public int getAddressId() {
+		return addressId;
+	}
+	public void setAddressId(int addressId) {
+		this.addressId = addressId;
+	}
+	public String getFirstAddress() {
+		return firstAddress;
+	}
+	public void setFirstAddress(String firstAddress) {
+		this.firstAddress = firstAddress;
+	}
+	public String getSecondAddress() {
+		return secondAddress;
+	}
+	public void setSecondAddress(String secondAddress) {
+		this.secondAddress = secondAddress;
+	}
+	
+}

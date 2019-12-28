@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package com.example.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+/**
+ * @author Dongala.Reddy
+ *
+ */
+@RestController
+public class AddressController {
+
+	/*
+	 * @Autowired public RestTemplate resttemplate;
+	 */
+	
+	@RequestMapping("/hello")
+	public String persistAddress() {
+		return "Bhaskar";
+		}
+}

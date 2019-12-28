@@ -1,0 +1,13 @@
+package com.example.beans;
+
+/*@Entity*/
+public class CustomerForm {
+
+	/* @Id */
+	/* @Column */
+	private int customerId;
+	private String customerName;
+	private String customerPhone;
+	
+	
+}

@@ -1,0 +1,2 @@
+spring.application.name=AddressServer
+server.port=8085
